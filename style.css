@@ -1,0 +1,161 @@
+body {
+  color: #555555;
+  font-family: acumin-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Text styling */
+h2 {
+  color: #8651A5;
+  font-size: 1.5vw;
+  font-family: acumin-pro, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 1vw;
+  margin-bottom: 2vw;
+  margin-top: -1vw;
+}
+
+h4 {
+  color: #777777;
+  font-size: 1.5vw;
+  line-height: 1vw;
+}
+
+p {
+  color: #777777;
+  font-size: 1.2vw;
+  line-height: 1.7vw;
+  text-align: left;
+  font-weight: 200;
+}
+
+.centered-table {
+  text-align: center;
+}
+
+p.donationpercent, p.numofdonors {
+  font-weight: 800;
+}
+
+/* general card styling */
+#card-front {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  max-width: 25vw;
+  height: 41vw;
+  text-align: center;
+}
+
+#card-back {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  max-width: 25vw;
+  max-height: 41vw;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+#container-front {
+  padding: 2px 16px;
+  text-align: left;
+}
+
+#container-back {
+  padding: 2px 16px;
+  text-align: center;
+}
+
+/* front of card styling */
+.meter {
+	height: 2vw;
+	position: relative;
+	background: #C2C2C2;
+	padding: 0vw;
+  margin-bottom: 1.5vw;
+}
+
+.meter > span {
+  display: block;
+  height: 100%;
+  background-color: #8651A5;
+  position: relative;
+  overflow: hidden;
+}
+
+#donormeter {
+  margin: 0vw;
+}
+
+.donationpercent, .status {
+	float: left;
+  margin-top: 0.5vw;
+  margin-bottom: 0.5vw;
+}
+
+.numofdonors, .totaldonations {
+	float: right;
+  margin-top: 0.5vw;
+  margin-bottom: 0.5vw;
+}
+
+/* back of card styling */
+#donors {
+  font-family: acumin-pro, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 1vw;
+  text-align: left;
+  font-weight: normal;
+  line-height: 1vw;
+}
+
+#donors td, #donors tr {
+  border-top: 1px solid #f2f2f2;
+  border-bottom: 1px solid #f2f2f2;
+  padding: 8px;
+  font-weight: 100;
+}
+
+#donors tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+#donors tr:hover {
+  background-color: #ddd;
+}
+
+#donors th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #ffffff;
+  color: #555555;
+}
+
+#giftbutton {
+  width: 12vw;
+  height: 2vw;
+  border-radius: 1vw;
+  font-family: acumin-pro, sans-serif;
+  color: #ffffff;
+  font-size: 1vw;
+  margin-top: 1vw;
+  background-color: #8651A5;
+}
+
+#giftbutton:hover {
+  color: #ffffff;
+  font-size: 1vw;
+  background-color: #5B376F;
+  transition: 0.7s;
+}
+
+
+
+
